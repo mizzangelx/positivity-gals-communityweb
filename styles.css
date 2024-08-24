@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #ffb6c1; /* Baby Pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333333; /* Black */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff69b4; /* A darker pink */
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff69b4; /* Darker pink */
+    text-align: center;
+}
+
+/* Card Container for Tips & Tricks */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff0f5; /* Very light pink */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Indicates that the card is clickable */
+}
+
+blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.social-icons a:hover {
+    color: #ff69b4;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Tips Styles */
+.tips {
+    margin-top: 20px;
+    background-color: #fff8fb; /* very light pink for tips area */
+    padding: 20px;
+    border-radius: 10px;
+}

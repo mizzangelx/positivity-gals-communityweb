@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Beauty Community</h1>
+        <p>Tips, Tricks, and More for Beauty and Well-being</p>
+        <!-- Updated Button with Discord Invite Link -->
+        <a href="https://discord.gg/https://discord.gg/maYdHEtgNC" class="btn" target="_blank">Join Our Community Server!</a>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Tips & Tricks Section -->
+        <section id="tips">
+            <h2>Tips & Tricks</h2>
+            <div class="card-container">
+                <div class="card" onclick="showMakeupTips()">
+                    <h3>Makeup</h3>
+                    <p>Discover the latest makeup trends and techniques to perfect your look.</p>
+                </div>
+                <div class="card" onclick="showSkincareTips()">
+                    <h3>Skincare</h3>
+                    <p>Take care of your skin with our best tips for a radiant and healthy complexion.</p>
+                </div>
+                <div class="card" onclick="showFashionTips()">
+                    <h3>Fashion</h3>
+                    <p>Learn about fashion trends and how to find your personal style.</p>
+                </div>
+            </div>
+
+            <!-- Makeup Tips Section (hidden) -->
+            <div id="makeup-tips" class="tips hidden">
+                <h3>Makeup Tips</h3>
+                <ul>
+                    <li>Always use a primer to create a smooth base.</li>
+                    <li>Opt for natural shades for everyday looks and experiment with bold colors for special occasions.</li>
+                    <li>Don't forget to clean your brushes regularly to avoid skin breakouts.</li>
+                </ul>
+            </div>
+
+            <!-- Skincare Tips Section (hidden) -->
+            <div id="skincare-tips" class="tips hidden">
+                <h3>Skincare Tips</h3>
+                <ul>
+                    <li>Cleanse your face twice a day to keep your skin clean and fresh.</li>
+                    <li>Use sunscreen daily, even when it's cloudy, to protect your skin from harmful UV rays.</li>
+                    <li>Stay hydrated and eat a balanced diet to promote healthy skin.</li>
+                </ul>
+            </div>
+
+            <!-- Fashion Tips Section (hidden) -->
+            <div id="fashion-tips" class="tips hidden">
+                <h3>Fashion Tips</h3>
+                <ul>
+                    <li>Invest in versatile pieces that you can mix and match with different outfits.</li>
+                    <li>Don't be afraid to experiment with colors and patterns to find your unique style.</li>
+                    <li>Accessorize to add a personal touch and elevate your outfits.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Motivation & Positivity Section -->
+        <section id="motivation">
+            <h2>Motivation & Positivity</h2>
+            <p>Be the best version of yourself! Find daily motivation and positive thoughts here.</p>
+            <blockquote>"Self-love is the beginning of a lifelong romance." - Oscar Wilde</blockquote>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a community of beauty enthusiasts who are passionate about beauty and well-being. Join our Discord server to connect with us!</p>
+        </section>
+
+        <!-- Contact & Social Media Section -->
+        <section id="contact">
+            <h2>Contact & Social Media</h2>
+            <p>Follow us on our social networks and stay updated.</p>
+            <ul class="social-icons">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Beauty Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
